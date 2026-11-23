@@ -133,7 +133,7 @@ for _ in range(5):
 
 info = [("课程名称", "机器学习"), ("姓名 / 学号", "＿＿＿＿＿＿ / ＿＿＿＿＿＿"),
         ("项目类型", "个人项目"), ("提交日期", "2026 年 11 月 27 日"),
-        ("代码仓库", "msg2todo（本地可运行原型）")]
+        ("代码仓库", "github.com/no-Ccarp/msg2todo")]
 t = doc.add_table(rows=0, cols=2)
 t.alignment = WD_TABLE_ALIGNMENT.CENTER
 for k, v in info:
@@ -142,7 +142,7 @@ for k, v in info:
     set_cn(cells[0].paragraphs[0].add_run(k), font="黑体", size=11, bold=True)
     cells[0].width = Cm(4.5)
     cells[1].text = ""
-    set_cn(cells[1].paragraphs[0].add_run(v), size=11)
+    set_cn(cells[1].paragraphs[0].add_run(v), size=10.5 if k == "代码仓库" else 11)
     cells[1].width = Cm(8)
 
 doc.add_page_break()
@@ -385,13 +385,15 @@ for r in refs:
 
 # ================= 附录 =================
 h("附录 A  运行方法", 1)
-for line in ["1. 双击 启动.bat（或命令行 python -m app.main）；",
+for line in ["0. 代码仓库：https://github.com/no-Ccarp/msg2todo （公开仓库，含 README、依赖清单与运行步骤）；",
+             "1. 双击 启动.bat（或命令行 python -m app.main）；",
              "2. 浏览器打开 http://127.0.0.1:8000；",
              "3. 左侧粘贴消息，点击「开始分析」；",
              "4. 右侧可逐条勾选/改写，点「导出 Excel」或「导出 Word」。",
              "5. 复现实验：python train.py → python cli.py experiment → python ablation_features.py。"]:
     p(line, size=9.5, indent=False, space_after=2)
 
+doc.add_page_break()
 h("附录 B  主要代码文件", 1)
 table(["文件", "行数量级", "职责"],
       [["core/parse.py", "~130", "聊天记录解析与脱敏"],
