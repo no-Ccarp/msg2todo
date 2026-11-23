@@ -1,0 +1,1269 @@
+[
+ {
+  "text": "╒═══部落战═══\n├谊享院 (6) vs (0)clashtown\n╞══进攻战况══\n├友: 12-secan (18本)\n├敌: 2-Pathavi (19本)\n├战星：3星 ★ ★ ★ (100%)\n╘═══════════",
+  "sent_time": "2026年11月21日  9:58",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.082,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 774,
+  "tokens": {
+   "prompt_tokens": 2054,
+   "completion_tokens": 44,
+   "calls": 4
+  }
+ },
+ {
+  "text": "被打了3个一",
+  "sent_time": "2026年11月21日 11:03",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.105,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 499,
+  "tokens": {
+   "prompt_tokens": 497,
+   "completion_tokens": 11,
+   "calls": 1
+  }
+ },
+ {
+  "text": "这不随便玩吗",
+  "sent_time": "2026年11月21日 11:04",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.097,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 553,
+  "tokens": {
+   "prompt_tokens": 993,
+   "completion_tokens": 22,
+   "calls": 2
+  }
+ },
+ {
+  "text": "[图片]",
+  "sent_time": "2026年11月21日 11:04",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.011,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 778,
+  "tokens": {
+   "prompt_tokens": 2549,
+   "completion_tokens": 55,
+   "calls": 5
+  }
+ },
+ {
+  "text": "就三星了",
+  "sent_time": "2026年11月21日 11:05",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.145,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 562,
+  "tokens": {
+   "prompt_tokens": 1488,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "女王断一边",
+  "sent_time": "2026年11月21日 11:05",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.116,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1225,
+  "tokens": {
+   "prompt_tokens": 4042,
+   "completion_tokens": 88,
+   "calls": 8
+  }
+ },
+ {
+  "text": "鸡毛的，要不是现在玩不了金龙，不然懒得玩这个",
+  "sent_time": "2026年11月21日 11:06",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.181,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1297,
+  "tokens": {
+   "prompt_tokens": 5544,
+   "completion_tokens": 121,
+   "calls": 11
+  }
+ },
+ {
+  "text": "剩下三把确实没招了",
+  "sent_time": "2026年11月21日 11:06",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.347,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 466,
+  "tokens": {
+   "prompt_tokens": 2055,
+   "completion_tokens": 44,
+   "calls": 4
+  }
+ },
+ {
+  "text": "叫扫码的粉碎者恶心了",
+  "sent_time": "2026年11月21日 11:06",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.137,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 458,
+  "tokens": {
+   "prompt_tokens": 2059,
+   "completion_tokens": 44,
+   "calls": 4
+  }
+ },
+ {
+  "text": "我防了好几个背包🌚",
+  "sent_time": "2026年11月21日 11:08",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.092,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1208,
+  "tokens": {
+   "prompt_tokens": 5501,
+   "completion_tokens": 121,
+   "calls": 11
+  }
+ },
+ {
+  "text": "我那个阵本来防背包的，被我瞎搞后直接防不了，有几个背包3了，但是防的1星里面也有背包",
+  "sent_time": "2026年11月21日 11:10",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.273,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1013,
+  "tokens": {
+   "prompt_tokens": 4013,
+   "completion_tokens": 88,
+   "calls": 8
+  }
+ },
+ {
+  "text": "反击我说实话",
+  "sent_time": "2026年11月21日 11:10",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.111,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 455,
+  "tokens": {
+   "prompt_tokens": 1489,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "但是后面够呛能玩了",
+  "sent_time": "2026年11月21日 11:12",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.114,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 524,
+  "tokens": {
+   "prompt_tokens": 1488,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "5000血拿头打😡",
+  "sent_time": "2026年11月21日 11:13",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.305,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 478,
+  "tokens": {
+   "prompt_tokens": 1493,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "给我一下",
+  "sent_time": "2026年11月21日 11:14",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.467,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 402,
+  "tokens": {
+   "prompt_tokens": 2519,
+   "completion_tokens": 55,
+   "calls": 5
+  }
+ },
+ {
+  "text": "我阵也可以",
+  "sent_time": "2026年11月21日 11:14",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.14,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 721,
+  "tokens": {
+   "prompt_tokens": 3015,
+   "completion_tokens": 66,
+   "calls": 6
+  }
+ },
+ {
+  "text": "拼阵中",
+  "sent_time": "2026年11月21日 11:15",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.145,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 850,
+  "tokens": {
+   "prompt_tokens": 3507,
+   "completion_tokens": 77,
+   "calls": 7
+  }
+ },
+ {
+  "text": "粉碎者一级🌚",
+  "sent_time": "2026年11月21日 11:16",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.076,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 702,
+  "tokens": {
+   "prompt_tokens": 2506,
+   "completion_tokens": 55,
+   "calls": 5
+  }
+ },
+ {
+  "text": "[图片]",
+  "sent_time": "2026年11月21日 11:17",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.011,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 828,
+  "tokens": {
+   "prompt_tokens": 3472,
+   "completion_tokens": 77,
+   "calls": 7
+  }
+ },
+ {
+  "text": "不过没看见狗球",
+  "sent_time": "2026年11月21日 11:18",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.128,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 681,
+  "tokens": {
+   "prompt_tokens": 2483,
+   "completion_tokens": 55,
+   "calls": 5
+  }
+ },
+ {
+  "text": "【2025医保投保—补充医疗保险】@所有人\n1.  本学年投保将于10月31日结束，之后不再补保。  请大家“自愿参保、愿保尽保、应保尽保。”\n2.   投保费用为：100元/生/年，保期：2025年9月1日-2026年8月31日。\n\n[爱心]注意：\n学平险为“补充”医疗保险，\n投保对象为：所有学生，\n截止投保时间：10月31日\n推文里有二维码，扫码即可投保成功！最下方有宣传页也可以下载了解详情[爱心]",
+  "sent_time": "2025年10月28日  9:45",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "扫码投保补充医疗保险并缴费100元",
+    "due_text": "10月31日",
+    "due_iso": "2025-10-31T00:00",
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "扫码即可投保成功",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.837,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1037,
+  "tokens": {
+   "prompt_tokens": 3749,
+   "completion_tokens": 107,
+   "calls": 7
+  }
+ },
+ {
+  "text": "【重要通知-2026年度大学生医保参保工作】\n1.  学校参保学生医保缴费平台已开通（详见通知），集中缴费时间：12月1日（周一）8:00-12月8日（周一）8:00。请通知全体学生及时缴费、参保。",
+  "sent_time": "2025年12月02日  9:20",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "在医保缴费平台缴纳2026年度大学生医保费",
+    "due_text": "12月1日（周一）8:00-12月8日（周一）8:00",
+    "due_iso": "2025-12-01T08:00",
+    "has_time": true,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "请通知全体学生及时缴费、参保",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.803,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1052,
+  "tokens": {
+   "prompt_tokens": 4827,
+   "completion_tokens": 183,
+   "calls": 9
+  }
+ },
+ {
+  "text": "[链接] 活动预告｜想赴海外交流？多校介绍+经验分享+资助政策，这场宣讲会全讲透！ [链接]",
+  "sent_time": "2025年12月03日 16:32",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.088,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 578,
+  "tokens": {
+   "prompt_tokens": 3776,
+   "completion_tokens": 107,
+   "calls": 7
+  }
+ },
+ {
+  "text": "各位同学，明天起学校将进入2025～2026学年寒假[太阳][太阳]根据校历安排，2025～2026学年寒假自2026年1月24日起至3月6日止，3月9日开学。3月8日（周日）学生注册报到，2026年3月6日～3月8日（周五～周日）学生补考，具体由教务处、研究生院、各学院另行安排[玫瑰][玫瑰]请各位做好个人健康防护，及时关闭宿舍、实验室电源、水源、锁好门窗。同时也谨防电信诈骗，假期期间也请各位遵守法律法规，安全出行。预祝各位新春快乐！[福][福][抱拳][抱拳]",
+  "sent_time": "2026年01月23日 14:38",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.493,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 419,
+  "tokens": {
+   "prompt_tokens": 1639,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "[图片]",
+  "sent_time": "2026年04月13日 13:51",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.011,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 480,
+  "tokens": {
+   "prompt_tokens": 2260,
+   "completion_tokens": 74,
+   "calls": 4
+  }
+ },
+ {
+  "text": "🚙【实习生招聘】华泰研究所汽车组\n\n工作地点：上海/北京（线下/线上可协商）\n\n[太阳]工作职责\n1.协助数据搜集、研究资料整理、会议纪要等常规性工作；\n2.协助完成日常研究工作，包括事件点评、业绩点评，行业动态追踪\n3. 参与完成课题研究、公司与行业报告、财务模型搭建\n\n[太阳]任职要求\n1. 每周至少4天，能够保证3个月及以上实习期\n2. 细致认真，工作靠谱高效，有独立思考能力\n3. 熟练使用Excel、有较强的逻辑思维能力和写作能力\n4. 重点院校经管类或理工类硕士或大四已保研\n\n[礼物]你将收获\n1. 团队氛围融洽，带教老师给予实习生充分的学习与成长机会。实习任务由浅入深，长期实习下相信会有能力的质变。\n2. 开实习证明并提供实习工资（研究生或大四保研）\n\n[太阳]申请方式\n请有兴趣的同学将简历发至（htscauto_intern@163.com），滚动招聘（定期查看邮箱并组织面试），邮件主题以及简历名称请以“实习应聘+姓名+学校+专业+毕业时间（硕士/大四）+一周几天+可实习几个月”命名，谢谢！",
+  "sent_time": "2026年04月23日 11:49",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "将简历发至htscauto_intern@163.com应聘实习生",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "活动",
+    "evidence": "将简历发至（htscauto_intern@163.com）",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.621,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1275,
+  "tokens": {
+   "prompt_tokens": 5180,
+   "completion_tokens": 225,
+   "calls": 9
+  }
+ },
+ {
+  "text": "宇量昇科技2027届专项班宣讲会\n2026-06-03 (第13周) 星期三 14:00-16:30 松江校区 E315多 这是2027届，招聘我院全部专业，我们同学，千万别错过。2025届全校签约了60多个。",
+  "sent_time": "2026年05月28日 11:06",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.744,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 442,
+  "tokens": {
+   "prompt_tokens": 2754,
+   "completion_tokens": 139,
+   "calls": 5
+  }
+ },
+ {
+  "text": "[链接] 上海城投集团2027届“城投班”招生正式启动 [链接]",
+  "sent_time": "2026年05月28日 15:01",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.11,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 607,
+  "tokens": {
+   "prompt_tokens": 2645,
+   "completion_tokens": 109,
+   "calls": 5
+  }
+ },
+ {
+  "text": "[链接] 春秋航空2027届暑期实习生招聘正式启动！ [链接]",
+  "sent_time": "2026年06月05日 13:28",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.045,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1028,
+  "tokens": {
+   "prompt_tokens": 3925,
+   "completion_tokens": 173,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[链接] 全国大学英语四、六级考试考前提示 [链接]",
+  "sent_time": "2026年06月05日 15:01",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.033,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1116,
+  "tokens": {
+   "prompt_tokens": 3909,
+   "completion_tokens": 173,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[图片]",
+  "sent_time": "2026年06月05日 16:50",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.011,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 442,
+  "tokens": {
+   "prompt_tokens": 1567,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "[文件] 上海工程技术大学2027届定向班招聘简章-上海华力上海基地适用(1).pdf",
+  "sent_time": "2026年06月05日 16:50",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.124,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 941,
+  "tokens": {
+   "prompt_tokens": 3829,
+   "completion_tokens": 119,
+   "calls": 7
+  }
+ },
+ {
+  "text": "【宝钢招聘】 @所有人\n各位同学下午好，【宝山钢铁股份有限公司】2027届毕业生实习宣讲，目前暂定宣讲会为2026年6月17日上午9点图文二报举办，当天宣讲结束后即开始面试，烦请大家于6月10日上午10:00之前填写《基本信息汇总表》在线文档。后续宝钢方会根据招聘要求筛选进面试的学生名单，请大家积极报名参加，央企单位，珍惜机会，谢谢！\n\n【金山文档 | WPS云文档】 基本信息汇总表(工程大-本科2027届）\n[链接]",
+  "sent_time": "2026年06月09日 16:24",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "填写《基本信息汇总表》在线文档",
+    "due_text": "6月10日上午10:00之前",
+    "due_iso": "2026-06-10T10:00",
+    "has_time": true,
+    "deadline": true,
+    "category": "事务",
+    "evidence": "6月10日上午10:00之前填写",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.897,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 787,
+  "tokens": {
+   "prompt_tokens": 3931,
+   "completion_tokens": 158,
+   "calls": 7
+  }
+ },
+ {
+  "text": "这家确定要我们，有留用的学长",
+  "sent_time": "2026年06月12日  9:07",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.46,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 954,
+  "tokens": {
+   "prompt_tokens": 3937,
+   "completion_tokens": 158,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[链接] 【实习】中国农业银行上海市分行2026年度暑期实习生招募正式启动 [链接]",
+  "sent_time": "2026年06月17日 12:23",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.044,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 436,
+  "tokens": {
+   "prompt_tokens": 1532,
+   "completion_tokens": 33,
+   "calls": 3
+  }
+ },
+ {
+  "text": "[链接] 【实习】智识神工2027暑期实习&校招提前批正式启航 [链接]",
+  "sent_time": "2026年06月17日 12:23",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.041,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 974,
+  "tokens": {
+   "prompt_tokens": 3686,
+   "completion_tokens": 116,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[链接] 【校招】东芯半导体2027届校园招聘暨实习生招聘 [链接]",
+  "sent_time": "2026年06月17日 12:23",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.06,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 898,
+  "tokens": {
+   "prompt_tokens": 3691,
+   "completion_tokens": 116,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[链接] 【校招】小米2027全球顶尖人才校园招聘正式启动 [链接]",
+  "sent_time": "2026年06月17日 12:23",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.051,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 508,
+  "tokens": {
+   "prompt_tokens": 2147,
+   "completion_tokens": 83,
+   "calls": 4
+  }
+ },
+ {
+  "text": "晚上没来听宣讲会的同学扫这个二维码投放简历",
+  "sent_time": "2026年06月26日 18:29",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "扫码投放简历",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "扫这个二维码投放简历",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.764,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1057,
+  "tokens": {
+   "prompt_tokens": 3663,
+   "completion_tokens": 138,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[视频号] 上海发布的视频",
+  "sent_time": "2026年07月09日 20:53",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.19,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 991,
+  "tokens": {
+   "prompt_tokens": 2543,
+   "completion_tokens": 55,
+   "calls": 5
+  }
+ },
+ {
+  "text": "就业系统学生信息核对，困难生类别非困难生、预计毕业季节秋季、培养方式非定向，预计毕业27年6月，学习方式全日制，高职扩招标志普通高中毕业生（专升本除外）",
+  "sent_time": "2026年09月11日 21:06",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "核对就业系统学生信息",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "就业系统学生信息核对",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.523,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1174,
+  "tokens": {
+   "prompt_tokens": 4858,
+   "completion_tokens": 252,
+   "calls": 9
+  }
+ },
+ {
+  "text": "@所有人\n[爱心]第48届世界技能大赛[爱心]将于2026年9月22日至27日在中国上海举办，为近距离感受“技能奥林匹克”的巅峰对决与工匠精神，拓展学生国际视野与专业前沿认知，根据世界技能大赛相关工作会议精神，欢迎学生报名观赛。方式如下：\n\n1️⃣微信小程序：搜索“世赛通”（切换成中文），点击「我的」-「大赛注册」。进入系统后，依次点击「我要办证」—「受邀人员」—输入邀请码“17R86Z9A”—「选择人员信息」—「新增人员信息」填写—「[玫瑰]选择9月25日-26日任一天[玫瑰]」—「保存并提交」，即完成预约申请提交，截图含有邀请码+姓名的页面。\n\n2️⃣PC端预约网址：[链接]\n\n完成时间：\n1️⃣学生9月14日中午12:00前完成注册预约并提交；\n2️⃣各学院于9月14日12:00前汇总报名截图，并上报报名人数。\n\n预约成功后，可于当天至现场观赛，非常感谢大家！[玫瑰]\n\n[太阳]为了减轻大家工作量，做了一个收集表，让学生截图直接上传收集表即可，谢谢[爱心]",
+  "sent_time": "2026年09月12日 16:50",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "注册预约世界技能大赛观赛并上传截图",
+    "due_text": "9月14日中午12:00前",
+    "due_iso": "2026-09-14T12:00",
+    "has_time": true,
+    "deadline": true,
+    "category": "活动",
+    "evidence": "9月14日中午12:00前完成注册预约",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.913,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 803,
+  "tokens": {
+   "prompt_tokens": 2792,
+   "completion_tokens": 122,
+   "calls": 5
+  }
+ },
+ {
+  "text": "[小程序] 第48届世界技能大赛报名截图收集",
+  "sent_time": "2026年09月12日 16:50",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "提交第48届世界技能大赛报名截图",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "活动",
+    "evidence": "报名截图收集",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.343,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 820,
+  "tokens": {
+   "prompt_tokens": 3292,
+   "completion_tokens": 195,
+   "calls": 6
+  }
+ },
+ {
+  "text": "@所有人 选修课未修满4学分的同学参与下接龙，截止四点之前",
+  "sent_time": "2026年09月15日 15:07",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "选修课未修满4学分的同学参与接龙",
+    "due_text": "四点之前",
+    "due_iso": "2026-09-15T04:00",
+    "has_time": true,
+    "deadline": true,
+    "category": "学业",
+    "evidence": "参与下接龙，截止四点之前",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.826,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 680,
+  "tokens": {
+   "prompt_tokens": 2274,
+   "completion_tokens": 147,
+   "calls": 4
+  }
+ },
+ {
+  "text": "@所有人 有想入团的联系我",
+  "sent_time": "2026年09月21日 11:33",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "联系发消息者报名入团",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "有想入团的联系我",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.752,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 719,
+  "tokens": {
+   "prompt_tokens": 3317,
+   "completion_tokens": 246,
+   "calls": 6
+  }
+ },
+ {
+  "text": "[文件] 关于评选表彰2026年上海工程技术大学优秀学生、优秀学生干部、先进集体的通知.doc",
+  "sent_time": "2026年09月21日 23:15",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.145,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 945,
+  "tokens": {
+   "prompt_tokens": 3828,
+   "completion_tokens": 235,
+   "calls": 7
+  }
+ },
+ {
+  "text": "[文件] 附件1 上海工程技术大学优秀学生登记表260918.xlsx",
+  "sent_time": "2026年09月21日 23:15",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.107,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 800,
+  "tokens": {
+   "prompt_tokens": 3580,
+   "completion_tokens": 190,
+   "calls": 7
+  }
+ },
+ {
+  "text": "特别是留校原因情况 要填写全",
+  "sent_time": "2026年09月23日 22:08",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "填写留校原因情况",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "留校原因情况 要填写全",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.301,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 759,
+  "tokens": {
+   "prompt_tokens": 4074,
+   "completion_tokens": 213,
+   "calls": 8
+  }
+ },
+ {
+  "text": "实验一，小组的另通知",
+  "sent_time": "2026年09月24日 13:44",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.524,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 399,
+  "tokens": {
+   "prompt_tokens": 1537,
+   "completion_tokens": 84,
+   "calls": 3
+  }
+ },
+ {
+  "text": "先交实验一，实验二写的是小组国庆后提交",
+  "sent_time": "2026年09月24日 13:53",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "提交实验一",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "学业",
+    "evidence": "先交实验一",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.809,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 612,
+  "tokens": {
+   "prompt_tokens": 2531,
+   "completion_tokens": 103,
+   "calls": 5
+  }
+ },
+ {
+  "text": "[图片]",
+  "sent_time": "2026年09月29日 12:43",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.011,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 654,
+  "tokens": {
+   "prompt_tokens": 3528,
+   "completion_tokens": 125,
+   "calls": 7
+  }
+ },
+ {
+  "text": "@所有人 不要忘记了！明天准时去哦",
+  "sent_time": "2026年10月20日 11:57",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.666,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 462,
+  "tokens": {
+   "prompt_tokens": 2534,
+   "completion_tokens": 103,
+   "calls": 5
+  }
+ },
+ {
+  "text": "@所有人 下周二前即截止时间为下周二12:00",
+  "sent_time": "2026年10月20日 17:38",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.781,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 970,
+  "tokens": {
+   "prompt_tokens": 3523,
+   "completion_tokens": 150,
+   "calls": 7
+  }
+ },
+ {
+  "text": "@所有人 有想推优的同学私信我",
+  "sent_time": "2026年10月22日 20:13",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "私信发送者申请推优",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "有想推优的同学私信我",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.889,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1345,
+  "tokens": {
+   "prompt_tokens": 5150,
+   "completion_tokens": 294,
+   "calls": 10
+  }
+ },
+ {
+  "text": "@所有人  根据《中华人民共和国全国人民代表大会和地方各级人民代表大会选举法》的规定，松江 区人大代表的换届选举工作已全面展开。请各位年满十八周岁的选民注意，我院将在10.26日（下周一）召开选民联名推荐代表候选人会议，会议上需要本人到场签字（不可代签），具体会议时间还在考量届时通知，请各位同学非特殊情况务必出席，即周一需要在学校，如果外出实习的同学较多，可能会考虑将会议放到晚上",
+  "sent_time": "2026年10月23日 14:27",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "到校参加选民联名推荐代表候选人会议并本人签字",
+    "due_text": "10.26日（下周一）",
+    "due_iso": "2026-10-26T00:00",
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "会议上需要本人到场签字（不可代签）",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.894,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 1128,
+  "tokens": {
+   "prompt_tokens": 4142,
+   "completion_tokens": 222,
+   "calls": 8
+  }
+ },
+ {
+  "text": "@所有人 就业推荐表当时没有跟班级一起交的需要再等一段时间，如果急需自行找辅导员",
+  "sent_time": "2026年10月27日  8:36",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.933,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 948,
+  "tokens": {
+   "prompt_tokens": 3048,
+   "completion_tokens": 128,
+   "calls": 6
+  }
+ },
+ {
+  "text": "@所有人 有需要请假的同学自己去找任老师请假，请假成功私信我，截止到本周三上午八点，未私信我默认可以参加",
+  "sent_time": "2026年11月02日 16:06",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "请假成功后私信告知",
+    "due_text": "本周三上午八点",
+    "due_iso": "2026-11-04T08:00",
+    "has_time": true,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "请假成功私信我，截止到本周三上午八点",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.973,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 612,
+  "tokens": {
+   "prompt_tokens": 2032,
+   "completion_tokens": 106,
+   "calls": 4
+  }
+ },
+ {
+  "text": "@所有人  无人请假，请大家11.16准时出席",
+  "sent_time": "2026年11月04日 10:00",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "准时出席",
+    "due_text": "11.16",
+    "due_iso": "2026-11-16T00:00",
+    "has_time": false,
+    "deadline": false,
+    "category": "活动",
+    "evidence": "请大家11.16准时出席",
+    "bucket": "已过期"
+   }
+  ],
+  "clf_prob": 0.84,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 512,
+  "tokens": {
+   "prompt_tokens": 504,
+   "completion_tokens": 36,
+   "calls": 1
+  }
+ },
+ {
+  "text": "没拿的下课尽快来拿",
+  "sent_time": "2026年11月06日 11:12",
+  "mode": "nogate",
+  "is_todo": true,
+  "items": [
+   {
+    "task": "下课尽快来领取未拿的物品",
+    "due_text": "",
+    "due_iso": null,
+    "has_time": false,
+    "deadline": false,
+    "category": "事务",
+    "evidence": "没拿的下课尽快来拿",
+    "bucket": "未知"
+   }
+  ],
+  "clf_prob": 0.667,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 725,
+  "tokens": {
+   "prompt_tokens": 3142,
+   "completion_tokens": 205,
+   "calls": 6
+  }
+ },
+ {
+  "text": "打不开的复制这个链接\n#小程序://问卷星/9wcv9M97HC9fN4x",
+  "sent_time": "2026年11月10日 20:18",
+  "mode": "nogate",
+  "is_todo": false,
+  "items": [],
+  "clf_prob": 0.127,
+  "need_review": false,
+  "skipped_llm": false,
+  "error": null,
+  "gate": "none",
+  "latency_ms": 992,
+  "tokens": {
+   "prompt_tokens": 3153,
+   "completion_tokens": 205,
+   "calls": 6
+  }
+ }
+]

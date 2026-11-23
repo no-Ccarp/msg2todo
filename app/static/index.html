@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>群消息待办整理 Agent</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">待</div>
+    <div>
+      <h1>群消息待办整理 Agent</h1>
+      <p class="sub">把刷屏的群聊变成一张可执行的清单 · 分类器门控 + 大模型抽取</p>
+    </div>
+  </div>
+  <div class="status"><span id="dot" class="dot"></span><span id="statusText">就绪</span></div>
+</header>
+
+<main class="layout">
+  <section class="panel input-panel">
+    <div class="panel-head">
+      <h2>原始消息</h2>
+      <div class="tools">
+        <button class="ghost" id="btnSample">示例</button>
+        <button class="ghost" id="btnClear">清空</button>
+      </div>
+    </div>
+    <textarea id="input" placeholder="粘贴一段群消息。支持两种情况：&#10;① 单条通知（可多行）；&#10;② 直接粘贴带“2026年11月21日 9:31”这类时间行的多条聊天记录，会自动切分。"></textarea>
+    <div class="row">
+      <button id="btnRun" class="primary">开始分析</button>
+      <label class="switch"><input type="checkbox" id="autoSplit" checked><span>自动切分多条</span></label>
+    </div>
+    <p class="hint">判定为噪声（置信度 &lt; 0.35）的消息不会调用大模型，直接跳过以节约成本。</p>
+  </section>
+
+  <section class="panel result-panel">
+    <div class="panel-head">
+      <h2>待办清单</h2>
+      <div class="tools">
+        <button class="ghost" id="btnXlsx">导出 Excel</button>
+        <button class="ghost" id="btnDocx">导出 Word</button>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div id="list" class="list">
+      <div class="empty">
+        <div class="empty-icon">🗂️</div>
+        <p>左侧粘贴消息，点「开始分析」</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>本地运行 · 数据不出本机（仅脱敏后的消息文本会发送给模型服务）</span>
+  <span id="footStat"></span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+ {
+  "mode": "rule",
+  "name": "A 规则基线",
+  "n": 60,
+  "confusion": {
+   "tp": 11,
+   "fp": 3,
+   "fn": 5,
+   "tn": 41
+  },
+  "acc": 0.8667,
+  "precision": 0.7857,
+  "recall": 0.6875,
+  "f1": 0.7333,
+  "due_acc": 0.6,
+  "due_n": 10,
+  "latency_ms_avg": 0.0,
+  "calls": 0,
+  "cache_hits": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "cost_yuan": 0.0,
+  "errors": 0
+ },
+ {
+  "mode": "llm_only",
+  "name": "B 纯大模型零样本",
+  "n": 60,
+  "confusion": {
+   "tp": 13,
+   "fp": 4,
+   "fn": 3,
+   "tn": 40
+  },
+  "acc": 0.8833,
+  "precision": 0.7647,
+  "recall": 0.8125,
+  "f1": 0.7879,
+  "due_acc": 0.7,
+  "due_n": 10,
+  "latency_ms_avg": 857.9,
+  "calls": 60,
+  "cache_hits": 0,
+  "prompt_tokens": 31431,
+  "completion_tokens": 1199,
+  "cost_yuan": 0.0338,
+  "errors": 0
+ },
+ {
+  "mode": "rule_llm",
+  "name": "C 规则门控+大模型",
+  "n": 60,
+  "confusion": {
+   "tp": 9,
+   "fp": 3,
+   "fn": 7,
+   "tn": 41
+  },
+  "acc": 0.8333,
+  "precision": 0.75,
+  "recall": 0.5625,
+  "f1": 0.6429,
+  "due_acc": 0.7,
+  "due_n": 10,
+  "latency_ms_avg": 255.3,
+  "calls": 14,
+  "cache_hits": 0,
+  "prompt_tokens": 7744,
+  "completion_tokens": 561,
+  "cost_yuan": 0.0089,
+  "errors": 0
+ },
+ {
+  "mode": "full",
+  "name": "D 分类器门控+大模型（本方案）",
+  "n": 60,
+  "confusion": {
+   "tp": 13,
+   "fp": 2,
+   "fn": 3,
+   "tn": 42
+  },
+  "acc": 0.9167,
+  "precision": 0.8667,
+  "recall": 0.8125,
+  "f1": 0.8387,
+  "due_acc": 0.7,
+  "due_n": 10,
+  "latency_ms_avg": 553.5,
+  "calls": 23,
+  "cache_hits": 0,
+  "prompt_tokens": 12727,
+  "completion_tokens": 753,
+  "cost_yuan": 0.0142,
+  "errors": 0
+ },
+ {
+  "mode": "nogate",
+  "name": "E 消融：去掉分类器门控",
+  "n": 60,
+  "confusion": {
+   "tp": 13,
+   "fp": 4,
+   "fn": 3,
+   "tn": 40
+  },
+  "acc": 0.8833,
+  "precision": 0.7647,
+  "recall": 0.8125,
+  "f1": 0.7879,
+  "due_acc": 0.7,
+  "due_n": 10,
+  "latency_ms_avg": 775.9,
+  "calls": 60,
+  "cache_hits": 0,
+  "prompt_tokens": 31431,
+  "completion_tokens": 1217,
+  "cost_yuan": 0.0339,
+  "errors": 0
+ }
+]

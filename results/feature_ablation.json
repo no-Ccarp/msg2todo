@@ -1,0 +1,26 @@
+[
+ {
+  "config": "word（默认，按空白切词）",
+  "cv_f1": 0.6548,
+  "cv_acc": 0.8375,
+  "n_features": 1644
+ },
+ {
+  "config": "char（1-2 字）",
+  "cv_f1": 0.784,
+  "cv_acc": 0.8708,
+  "n_features": 5956
+ },
+ {
+  "config": "char_wb（1-3 字，本方案）",
+  "cv_f1": 0.7943,
+  "cv_acc": 0.875,
+  "n_features": 12660
+ },
+ {
+  "config": "char_wb（1-4 字）",
+  "cv_f1": 0.7943,
+  "cv_acc": 0.875,
+  "n_features": 19557
+ }
+]
