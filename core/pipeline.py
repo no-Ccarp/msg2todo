@@ -98,16 +98,30 @@ def analyze(text: str, sent_time: str | None = None, *, mode: str = "full",
         "clf_prob": None,
         "need_review": False,
         "skipped_llm": False,
+        "degraded": False,
         "error": None,
     }
 
+    # 未配置 API Key 时自动降级为“分类器 + 规则”，保证访客也能跑通整个原型
+    offline = not llm.API_KEY
+
     # ---------- 1) 判待办：三种门控方式 ----------
-    if mode == "rule":
-        pred, conf = rules.rule_score(text)
-        out.update(is_todo=bool(pred), clf_prob=conf, gate="rule")
+    if mode == "rule" or offline:
+        if offline and mode != "rule":
+            # 有分类器但没有 Key：仍然用分类器判断，字段退化为规则抽取
+            prob = float(load_clf().predict_proba([text])[0, 1])
+            out["clf_prob"] = round(prob, 3)
+            out["gate"] = "clf"
+            out["degraded"] = True
+            out["need_review"] = GATE_LOW <= prob < GATE_HIGH
+            pred = int(prob >= GATE_LOW)
+        else:
+            pred, conf = rules.rule_score(text)
+            out["clf_prob"] = round(conf, 3)
+            out["gate"] = "rule"
+        out["is_todo"] = bool(pred)
         if pred:
-            due = _guess_due(text)
-            out["items"] = [_mk_item(text, due, rules_category(text), ref)]
+            out["items"] = [_mk_item(_rule_task(text), _guess_due(text), rules_category(text), ref)]
         out["latency_ms"] = int((time.time() - t0) * 1000)
         out["tokens"] = _tokens_after(used)
         return out
@@ -177,12 +191,41 @@ def _mk_item(task: str, due_text: str, category: str, ref: datetime, evidence: s
     }
 
 
+TIME_ATOM = re.compile(
+    r"(?:\d{4}年)?\d{1,2}\s*[月.．]\s*\d{1,2}\s*[日号]?"
+    r"|今天|今日|明天|明日|后天|大后天"
+    r"|(?:本|这|下)(?:周|星期)[一二三四五六日天]"
+    r"|(?:上午|中午|下午|晚上|晚|早上)?\s*\d{1,2}\s*[:：]\s*\d{2}"
+    r"|(?:上午|中午|下午|晚上|晚|傍晚|早上)?\s*(?:[一二三四五六七八九十]{1,3}|\d{1,2})\s*[点時时]"
+)
+MERGE_GAP = re.compile(r"[\s\-—~～到至（）()、,，]{0,6}")
+TAIL = re.compile(r"\s*(之前|以前|前|截止)")
+
+
 def _guess_due(text: str) -> str:
-    """规则模式下从原文里抓一个时间片段（粗糙但可解释）。"""
-    pat = (r"[^，。；\n]{0,10}(?:\d{1,2}\s*[月.．]\s*\d{1,2}\s*[日号]?|今天|明天|后天|本周[一二三四五六日天]|下周[一二三四五六日天])"
-           r"[^，。；\n]{0,12}")
-    m = re.search(pat, text)
-    return m.group(0).strip() if m else ""
+    """规则模式：抓出第一段时间表达，并把相邻的时间原子合并（粗糙但可解释）。"""
+    ms = list(TIME_ATOM.finditer(text))
+    if not ms:
+        return ""
+    start, end = ms[0].start(), ms[0].end()
+    for m in ms[1:]:
+        gap = text[end:m.start()]
+        if MERGE_GAP.fullmatch(gap):
+            end = m.end()
+        else:
+            break
+    seg = text[start:end]
+    tail = TAIL.match(text[end:end + 4])
+    if tail:
+        seg += tail.group(0).strip()
+    return seg.strip(" 　")
+
+
+def _rule_task(text: str) -> str:
+    """规则模式下的任务描述：去掉 @所有人、压平换行并截断。"""
+    t = re.sub(r"^[@\s\u2005]*所有人[\s\u2005]*", "", text.strip())
+    t = re.sub(r"\s+", " ", t).strip()
+    return t[:60] + ("…" if len(t) > 60 else "")
 
 
 def rules_category(text: str) -> str:

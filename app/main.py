@@ -69,6 +69,7 @@ def run_analysis(text: str, sent_time: str | None) -> dict:
         "items": items,
         "elapsed_ms": int((time.time() - t0) * 1000),
         "review_count": sum(1 for i in items if i["need_review"]),
+        "degraded": any(r.get("degraded") for r in results),
     }
 
 

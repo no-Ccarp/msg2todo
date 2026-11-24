@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "pdfium",
+  "source": "saved",
+  "inputPath": "D:\\Desktop\\机器学习大作业\\msg2todo\\报告.pdf",
+  "sourceSha256": "c085621a1a87c22751138993711dfac484980218ac796cc8076c8e87803d8302",
+  "dpi": 100,
+  "pageCount": 15,
+  "images": [
+    {
+      "index": 1,
+      "page": 11,
+      "path": "D:\\Desktop\\机器学习大作业\\msg2todo\\results\\v4\\page-0001.png",
+      "width": 850,
+      "height": 1100,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 816,
+        "height": 1056
+      },
+      "byteLength": 147627
+    }
+  ],
+  "missingFonts": []
+}

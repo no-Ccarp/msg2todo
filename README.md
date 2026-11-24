@@ -17,21 +17,67 @@
 
 ## 2. 快速开始
 
+### 2.0 前置要求
+
+| 项目 | 要求 |
+|---|---|
+| 操作系统 | Windows 10/11（`启动.bat` 是 Windows 批处理；macOS / Linux 用 2.4 的命令行方式） |
+| Python | 3.10 及以上（本项目在 3.12.14 上测试） |
+| 磁盘 | 依赖装好后约 120 MB（scikit-learn 及其依赖占主要部分） |
+| 网络 | 首次 `pip install` 需要联网；不填 API Key 也能运行（见 2.5 离线模式） |
+
+### 2.1 获取代码（访问者必做的第一步）
+
+```bash
+git clone https://github.com/no-Ccarp/msg2todo.git
+cd msg2todo
+```
+
+不会用 git 的话：在仓库页面点绿色 **Code → Download ZIP**，解压到任意本地目录。
+
+> ⚠️ **必须先把代码下载到本地磁盘。** 在 GitHub 网页上点开 `启动.bat` 只会显示它的源码，
+> 浏览器不能执行本地脚本；也没有任何在线服务能在你本地启动一个服务。这一步没有捷径。
+
+### 2.2 安装依赖
+
+```bash
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt      # Windows
+# source .venv/bin/activate && pip install -r requirements.txt   # macOS / Linux
+```
+
+首次安装约 1–3 分钟。依赖清单见 `requirements.txt`（scikit-learn / numpy / joblib / matplotlib / openpyxl / python-docx）。
+
+### 2.3 配置 API Key（可选）
+
+```bash
+copy .env.example .env        # Windows；macOS/Linux 用 cp
+```
+
+编辑 `.env`，把 `LLM_API_KEY` 换成你自己的 DeepSeek Key。**不配也能启动**，只是抽取质量下降，见 2.5。
+
+### 2.4 启动
+
 ```bat
-:: 方式一：双击
+:: Windows：双击，或在项目目录执行
 启动.bat
 
-:: 方式二：命令行
-python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
-copy .env.example .env      :: 填入 LLM_API_KEY
-.venv\Scripts\python train.py
-.venv\Scripts\python -m app.main
+:: 任意平台：命令行等价写法
+.venv\Scripts\python train.py          :: 首次会训练并生成 models/clf.pkl
+.venv\Scripts\python -m app.main       :: 启动本地服务
 ```
 
 浏览器打开 <http://127.0.0.1:8000>，粘贴消息 → 点「开始分析」。
+`启动.bat` 会自动检查虚拟环境、缺依赖就装、缺模型就训练，然后启动服务并打开浏览器；
+**那个命令行窗口要保持开着**，关掉服务就停。
 
-> 只想看界面不想调模型：先跑 `train.py`，页面中置信度低于 0.35 的消息不会调用大模型；但高于阈值时仍需 `LLM_API_KEY`。
+### 2.5 离线模式（没有 API Key 也能跑）
+
+未配置 `LLM_API_KEY` 时，系统自动降级：分类器照常判断「是不是待办」，截止时间由规则从原文摘取，
+不调用任何外部服务。此时界面会显示「离线模式」标记，抽取字段比完整模式粗糙（比如不会把一句话
+改写成简洁的任务描述），但**整条链路仍可跑通、可演示、可复现**。
+
+配置 Key 后无需改代码，重启服务即切换到完整模式。
 
 ## 3. 目录结构
 
@@ -80,11 +126,13 @@ msg2todo/
 |---|---|---|---|---|
 | A 关键词规则 | 0.786 | 0.688 | 0.733 | 0 |
 | B 纯大模型零样本 | 0.765 | 0.812 | 0.788 | 0.034 |
-| C 规则门控+大模型 | 0.750 | 0.562 | 0.643 | 0.009 |
+| C 规则门控+大模型 | 0.769 | 0.625 | 0.690 | 0.009 |
 | **D 分类器门控+大模型（本方案）** | **0.867** | **0.812** | **0.839** | **0.014** |
 | E 消融：去掉分类器门控 | 0.765 | 0.812 | 0.788 | 0.034 |
 
 分类器本体（离线、CPU）：随机分层测试集 F1 0.889 / AUC 0.965；跨群测试 F1 0.538（域偏移明显，详见课程提交的报告 PDF）。
+
+> **关于可重复性**：大模型的输出即使 `temperature=0` 也并非严格确定。同一配置重复运行时，D 组 F1 在 0.80–0.84、C 组在 0.64–0.69 之间浮动（一次运行内约 ±1–2 条样本）。上表是一次完整运行的结果；多次运行中「D 组最优、门控把成本降约六成」的结论保持一致。想自己复现：`python cli.py experiment`（会真实调用模型，约 ¥0.2）。
 
 ## 6. 数据与隐私
 

@@ -103,6 +103,9 @@ function renderStats(meta) {
   add('', `消息 <b>${meta.messages}</b> 条`);
   add('', `待办 <b>${meta.todos}</b> 条`);
   add(meta.review_count ? 'warn' : 'muted', `需复核 <b>${meta.review_count}</b> 条`);
+  if (meta.degraded) {
+    add('warn', '离线模式 · 未配置 API Key，时间字段由规则抽取');
+  }
   add('muted', `耗时 <b>${(meta.elapsed_ms / 1000).toFixed(1)}s</b>`);
   $('#footStat').textContent = `最近一次：${meta.messages} 条消息 / ${meta.todos} 条待办`;
 }

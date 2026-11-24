@@ -8,9 +8,10 @@
   "clf_prob": 0.082,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2379,
+  "latency_ms": 2174,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -26,9 +27,10 @@
   "clf_prob": 0.105,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2387,
+  "latency_ms": 2187,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -44,9 +46,10 @@
   "clf_prob": 0.097,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2383,
+  "latency_ms": 2198,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -62,9 +65,10 @@
   "clf_prob": 0.011,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2366,
+  "latency_ms": 2206,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -80,9 +84,10 @@
   "clf_prob": 0.145,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2346,
+  "latency_ms": 2194,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -98,9 +103,10 @@
   "clf_prob": 0.116,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2354,
+  "latency_ms": 2202,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -116,9 +122,10 @@
   "clf_prob": 0.181,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -134,6 +141,7 @@
   "clf_prob": 0.347,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 2,
@@ -152,6 +160,7 @@
   "clf_prob": 0.137,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -170,6 +179,7 @@
   "clf_prob": 0.092,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -188,6 +198,7 @@
   "clf_prob": 0.273,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -206,6 +217,7 @@
   "clf_prob": 0.111,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -224,6 +236,7 @@
   "clf_prob": 0.114,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -242,9 +255,10 @@
   "clf_prob": 0.305,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -260,13 +274,14 @@
   "clf_prob": 0.467,
   "need_review": true,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 1083,
+  "latency_ms": 439,
   "tokens": {
-   "prompt_tokens": 3092,
-   "completion_tokens": 123,
-   "calls": 5
+   "prompt_tokens": 494,
+   "completion_tokens": 11,
+   "calls": 1
   }
  },
  {
@@ -278,9 +293,10 @@
   "clf_prob": 0.14,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -296,9 +312,10 @@
   "clf_prob": 0.145,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 4,
+  "latency_ms": 2,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -314,6 +331,7 @@
   "clf_prob": 0.076,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -332,9 +350,10 @@
   "clf_prob": 0.011,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -350,6 +369,7 @@
   "clf_prob": 0.128,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -366,7 +386,7 @@
   "is_todo": true,
   "items": [
    {
-    "task": "扫码投保补充医疗保险",
+    "task": "扫码投保补充医疗保险并缴费100元",
     "due_text": "10月31日",
     "due_iso": "2025-10-31T00:00",
     "has_time": false,
@@ -379,12 +399,13 @@
   "clf_prob": 0.837,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 670,
+  "latency_ms": 878,
   "tokens": {
-   "prompt_tokens": 1828,
-   "completion_tokens": 59,
+   "prompt_tokens": 1764,
+   "completion_tokens": 63,
    "calls": 3
   }
  },
@@ -408,13 +429,14 @@
   "clf_prob": 0.803,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 1349,
+  "latency_ms": 956,
   "tokens": {
-   "prompt_tokens": 4262,
-   "completion_tokens": 238,
-   "calls": 7
+   "prompt_tokens": 2318,
+   "completion_tokens": 128,
+   "calls": 4
   }
  },
  {
@@ -426,9 +448,10 @@
   "clf_prob": 0.088,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -444,11 +467,12 @@
   "clf_prob": 0.493,
   "need_review": true,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 645,
+  "latency_ms": 790,
   "tokens": {
-   "prompt_tokens": 1205,
+   "prompt_tokens": 1141,
    "completion_tokens": 22,
    "calls": 2
   }
@@ -462,9 +486,10 @@
   "clf_prob": 0.011,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 2,
+  "latency_ms": 0,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -491,13 +516,14 @@
   "clf_prob": 0.621,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 897,
+  "latency_ms": 1144,
   "tokens": {
-   "prompt_tokens": 2598,
-   "completion_tokens": 112,
-   "calls": 4
+   "prompt_tokens": 3704,
+   "completion_tokens": 231,
+   "calls": 6
   }
  },
  {
@@ -509,13 +535,14 @@
   "clf_prob": 0.744,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 520,
+  "latency_ms": 1620,
   "tokens": {
-   "prompt_tokens": 558,
-   "completion_tokens": 11,
-   "calls": 1
+   "prompt_tokens": 4262,
+   "completion_tokens": 242,
+   "calls": 7
   }
  },
  {
@@ -527,9 +554,10 @@
   "clf_prob": 0.11,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -545,9 +573,10 @@
   "clf_prob": 0.045,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -563,9 +592,10 @@
   "clf_prob": 0.033,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -581,6 +611,7 @@
   "clf_prob": 0.011,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -599,9 +630,10 @@
   "clf_prob": 0.124,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 3,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -628,13 +660,14 @@
   "clf_prob": 0.897,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 696,
+  "latency_ms": 668,
   "tokens": {
-   "prompt_tokens": 3150,
-   "completion_tokens": 162,
-   "calls": 5
+   "prompt_tokens": 2440,
+   "completion_tokens": 167,
+   "calls": 4
   }
  },
  {
@@ -646,12 +679,13 @@
   "clf_prob": 0.46,
   "need_review": true,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 970,
+  "latency_ms": 1152,
   "tokens": {
-   "prompt_tokens": 4095,
-   "completion_tokens": 262,
+   "prompt_tokens": 4159,
+   "completion_tokens": 266,
    "calls": 7
   }
  },
@@ -664,9 +698,10 @@
   "clf_prob": 0.044,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -682,9 +717,10 @@
   "clf_prob": 0.041,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -700,9 +736,10 @@
   "clf_prob": 0.06,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 4,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -718,6 +755,7 @@
   "clf_prob": 0.051,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
   "latency_ms": 0,
@@ -747,13 +785,14 @@
   "clf_prob": 0.764,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 1150,
+  "latency_ms": 1218,
   "tokens": {
-   "prompt_tokens": 3976,
-   "completion_tokens": 258,
-   "calls": 7
+   "prompt_tokens": 5310,
+   "completion_tokens": 361,
+   "calls": 9
   }
  },
  {
@@ -765,9 +804,10 @@
   "clf_prob": 0.19,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 3,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -794,12 +834,13 @@
   "clf_prob": 0.523,
   "need_review": true,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 662,
+  "latency_ms": 819,
   "tokens": {
-   "prompt_tokens": 2201,
-   "completion_tokens": 161,
+   "prompt_tokens": 2481,
+   "completion_tokens": 149,
    "calls": 4
   }
  },
@@ -823,12 +864,13 @@
   "clf_prob": 0.913,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 886,
+  "latency_ms": 951,
   "tokens": {
-   "prompt_tokens": 3470,
-   "completion_tokens": 250,
+   "prompt_tokens": 3636,
+   "completion_tokens": 213,
    "calls": 6
   }
  },
@@ -841,9 +883,10 @@
   "clf_prob": 0.343,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -870,13 +913,14 @@
   "clf_prob": 0.826,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 1223,
+  "latency_ms": 809,
   "tokens": {
-   "prompt_tokens": 4871,
-   "completion_tokens": 328,
-   "calls": 9
+   "prompt_tokens": 2108,
+   "completion_tokens": 104,
+   "calls": 4
   }
  },
  {
@@ -886,7 +930,7 @@
   "is_todo": true,
   "items": [
    {
-    "task": "联系发消息人报名入团",
+    "task": "联系发消息者报名入团",
     "due_text": "",
     "due_iso": null,
     "has_time": false,
@@ -899,13 +943,14 @@
   "clf_prob": 0.752,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 762,
+  "latency_ms": 1044,
   "tokens": {
-   "prompt_tokens": 2801,
-   "completion_tokens": 173,
-   "calls": 5
+   "prompt_tokens": 3819,
+   "completion_tokens": 231,
+   "calls": 7
   }
  },
  {
@@ -917,9 +962,10 @@
   "clf_prob": 0.145,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 4,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -935,9 +981,10 @@
   "clf_prob": 0.107,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -953,9 +1000,10 @@
   "clf_prob": 0.301,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -971,13 +1019,14 @@
   "clf_prob": 0.524,
   "need_review": true,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 633,
+  "latency_ms": 924,
   "tokens": {
-   "prompt_tokens": 3268,
-   "completion_tokens": 181,
-   "calls": 6
+   "prompt_tokens": 4286,
+   "completion_tokens": 239,
+   "calls": 8
   }
  },
  {
@@ -1000,13 +1049,14 @@
   "clf_prob": 0.809,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 508,
+  "latency_ms": 741,
   "tokens": {
-   "prompt_tokens": 2268,
-   "completion_tokens": 159,
-   "calls": 4
+   "prompt_tokens": 3286,
+   "completion_tokens": 217,
+   "calls": 6
   }
  },
  {
@@ -1018,9 +1068,10 @@
   "clf_prob": 0.011,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 0,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
@@ -1036,13 +1087,14 @@
   "clf_prob": 0.666,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 1061,
+  "latency_ms": 748,
   "tokens": {
-   "prompt_tokens": 4879,
-   "completion_tokens": 301,
-   "calls": 9
+   "prompt_tokens": 3775,
+   "completion_tokens": 192,
+   "calls": 7
   }
  },
  {
@@ -1054,13 +1106,14 @@
   "clf_prob": 0.781,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 776,
+  "latency_ms": 460,
   "tokens": {
-   "prompt_tokens": 3026,
-   "completion_tokens": 179,
-   "calls": 6
+   "prompt_tokens": 1010,
+   "completion_tokens": 44,
+   "calls": 2
   }
  },
  {
@@ -1070,7 +1123,7 @@
   "is_todo": true,
   "items": [
    {
-    "task": "私信发送者报名推优",
+    "task": "私信发送者申请推优",
     "due_text": "",
     "due_iso": null,
     "has_time": false,
@@ -1083,13 +1136,14 @@
   "clf_prob": 0.889,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 616,
+  "latency_ms": 872,
   "tokens": {
-   "prompt_tokens": 2019,
-   "completion_tokens": 130,
-   "calls": 4
+   "prompt_tokens": 3016,
+   "completion_tokens": 143,
+   "calls": 6
   }
  },
  {
@@ -1099,12 +1153,12 @@
   "is_todo": true,
   "items": [
    {
-    "task": "本人到场参加选民联名推荐代表候选人会议并签字",
+    "task": "到校参加选民联名推荐代表候选人会议并本人签字",
     "due_text": "10.26日（下周一）",
     "due_iso": "2026-10-26T00:00",
     "has_time": false,
     "deadline": false,
-    "category": "活动",
+    "category": "事务",
     "evidence": "会议上需要本人到场签字（不可代签）",
     "bucket": "已过期"
    }
@@ -1112,13 +1166,14 @@
   "clf_prob": 0.894,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 621,
+  "latency_ms": 827,
   "tokens": {
-   "prompt_tokens": 2613,
-   "completion_tokens": 164,
-   "calls": 5
+   "prompt_tokens": 4121,
+   "completion_tokens": 235,
+   "calls": 8
   }
  },
  {
@@ -1130,13 +1185,14 @@
   "clf_prob": 0.933,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 945,
+  "latency_ms": 484,
   "tokens": {
-   "prompt_tokens": 3130,
-   "completion_tokens": 175,
-   "calls": 6
+   "prompt_tokens": 2523,
+   "completion_tokens": 105,
+   "calls": 5
   }
  },
  {
@@ -1146,7 +1202,7 @@
   "is_todo": true,
   "items": [
    {
-    "task": "请假成功后私信告知",
+    "task": "向任老师请假并私信告知",
     "due_text": "本周三上午八点",
     "due_iso": "2026-11-04T08:00",
     "has_time": true,
@@ -1159,12 +1215,13 @@
   "clf_prob": 0.973,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 967,
+  "latency_ms": 753,
   "tokens": {
-   "prompt_tokens": 4148,
-   "completion_tokens": 252,
+   "prompt_tokens": 4141,
+   "completion_tokens": 255,
    "calls": 8
   }
  },
@@ -1175,7 +1232,7 @@
   "is_todo": true,
   "items": [
    {
-    "task": "准时出席活动",
+    "task": "准时出席",
     "due_text": "11.16",
     "due_iso": "2026-11-16T00:00",
     "has_time": false,
@@ -1188,13 +1245,14 @@
   "clf_prob": 0.84,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 675,
+  "latency_ms": 534,
   "tokens": {
-   "prompt_tokens": 3118,
-   "completion_tokens": 164,
-   "calls": 6
+   "prompt_tokens": 2023,
+   "completion_tokens": 98,
+   "calls": 4
   }
  },
  {
@@ -1217,13 +1275,14 @@
   "clf_prob": 0.667,
   "need_review": false,
   "skipped_llm": false,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 658,
+  "latency_ms": 637,
   "tokens": {
-   "prompt_tokens": 2108,
-   "completion_tokens": 116,
-   "calls": 4
+   "prompt_tokens": 2613,
+   "completion_tokens": 182,
+   "calls": 5
   }
  },
  {
@@ -1235,9 +1294,10 @@
   "clf_prob": 0.127,
   "need_review": false,
   "skipped_llm": true,
+  "degraded": false,
   "error": null,
   "gate": "clf",
-  "latency_ms": 3,
+  "latency_ms": 1,
   "tokens": {
    "prompt_tokens": 0,
    "completion_tokens": 0,
