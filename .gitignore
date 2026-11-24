@@ -21,3 +21,4 @@ results/server.err
 # 实验报告：单独提交，不入代码仓库
 报告*.pdf
 报告*.docx
+build_report.py
