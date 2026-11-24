@@ -22,3 +22,4 @@ results/server.err
 报告*.pdf
 报告*.docx
 build_report.py
+results/v*/
